@@ -1,0 +1,27 @@
+{
+  "name": "15.7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel components --watch --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djrokita/Timer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djrokita/Timer/issues"
+  },
+  "homepage": "https://github.com/djrokita/Timer#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1"
+  }
+}
